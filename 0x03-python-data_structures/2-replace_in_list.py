@@ -3,7 +3,7 @@
 def replace_in_list(my_list, idx, element):
     """ replaces element of list """
     
-    if idx < 0 and idx > len(my_list) - 1:
+    if idx < 0 or idx > len(my_list) - 1:
         return my_list
     else:
         my_list[idx] = element
