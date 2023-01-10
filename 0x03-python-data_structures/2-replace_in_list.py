@@ -1,9 +1,9 @@
-i!/usr/bin/python3
+#!/usr/bin/python3
 
 def replace_in_list(my_list, idx, element):
-    """replaces element of list at specific position"""
+    """ replaces element of list """
     
-    if idx < 0 and idx > len(my_list):
+    if idx < 0 and idx > len(my_list) - 1:
         return my_list
     else:
         my_list[idx] = element
